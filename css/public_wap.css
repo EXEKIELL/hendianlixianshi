@@ -1,0 +1,230 @@
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0; }
+
+.clearfloat {
+  zoom: 1; }
+
+@font-face {
+  font-family: 'SourceHanSansCN';
+  src: url("../font/DroidSansChinese.ttf"); }
+@font-face {
+  font-family: 'SourceHanSansCNLight';
+  src: url("../font/SourceHanSansCN-Light.otf"); }
+@font-face {
+  font-family: 'SourceHanSansCNBold';
+  src: url("../font/SourceHanSansCN-Bold-Alphabetic.ttf"); }
+body {
+  font-family: 'SourceHanSansCN'; }
+
+.wrap .head {
+  position: relative;
+  -webkit-box-shadow: 0 2px 10px #e4e4e4;
+  -moz-box-shadow: 0 2px 10px #e4e4e4;
+  box-shadow: 0 1px 10px #e4e4e4; }
+  .wrap .head div {
+    text-align: center; }
+  .wrap .head div:first-child {
+    position: absolute;
+    top: 50%;
+    left: 0.4rem;
+    height: 0.3rem;
+    margin-top: -1.8%; }
+    .wrap .head div:first-child a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+      .wrap .head div:first-child a img {
+        height: 100%; }
+  .wrap .head div:nth-child(2) {
+    font-size: 0.32rem;
+    padding: 0.25rem;
+    color: #333333; }
+.wrap .cont1 .list1 {
+  border-bottom: 1px solid #dcdcdc; }
+  .wrap .cont1 .list1 > div:first-child {
+    font-size: 0.42rem;
+    color: #333333;
+    padding: 0.5rem 0 0 0.3rem; }
+  .wrap .cont1 .list1 > div:nth-child(2) {
+    padding: 0 0 0 0.3rem; }
+    .wrap .cont1 .list1 > div:nth-child(2) > div {
+      float: left;
+      margin-right: 0.25rem;
+      font-size: 0;
+      padding: 0.3rem 0; }
+      .wrap .cont1 .list1 > div:nth-child(2) > div > span:first-child {
+        background: url("../img/icon01.png") no-repeat;
+        display: inline-block;
+        width: 0.3rem;
+        height: 0.3rem;
+        background-size: 100%;
+        background-position: 0rem 0.01rem; }
+      .wrap .cont1 .list1 > div:nth-child(2) > div span {
+        font-size: 0.24rem;
+        color: #c4c4c4;
+        vertical-align: middle;
+        margin-right: 0.07rem; }
+    .wrap .cont1 .list1 > div:nth-child(2) > div:nth-child(2) > span:first-child {
+      background: url("../img/icon02.png") no-repeat;
+      display: inline-block;
+      width: 0.3rem;
+      height: 0.3rem;
+      background-size: 100%;
+      background-position: 0rem 0.01rem; }
+.wrap .cont1 .list2 .l2-1 {
+  margin: 0.5rem 0.3rem 0 0.3rem; }
+  .wrap .cont1 .list2 .l2-1 img {
+    width: 100%; }
+.wrap .cont1 .list2 .l2-2 {
+  margin: 0rem 0.3rem;
+  background-color: #f1f1f1;
+  padding: 1px;
+  -webkit-border-radius: 0 0 0.14rem 0.14rem;
+  -moz-border-radius: 0 0 0.14rem 0.14rem;
+  border-radius: 0 0 0.14rem 0.14rem; }
+  .wrap .cont1 .list2 .l2-2 > div {
+    width: 50%;
+    margin: 0.6rem auto;
+    padding: 0.4rem 0 0 0;
+    border: 1px solid #dcdcdc; }
+    .wrap .cont1 .list2 .l2-2 > div img {
+      width: 80%;
+      margin: 0 auto; }
+    .wrap .cont1 .list2 .l2-2 > div div {
+      text-align: center;
+      font-size: 0.28rem;
+      color: #666666;
+      padding: 0.2rem 0; }
+.wrap .cont1 .list3 {
+  padding: 1rem 0.3rem 0.5rem 0.3rem;
+  border-bottom: 1px solid #dcdcdc; }
+  .wrap .cont1 .list3 > div {
+    font-size: 0;
+    margin: 0.1rem 0; }
+    .wrap .cont1 .list3 > div > span:first-child {
+      font-size: 0.3rem;
+      color: #666666; }
+    .wrap .cont1 .list3 > div > span:nth-child(2) {
+      font-size: 0.28rem;
+      font-family: 'SourceHanSansCNLight';
+      color: #666666;
+      font-weight: lighter; }
+  .wrap .cont1 .list3 .l3-3 > div:first-child {
+    font-size: 0.3rem;
+    color: #666666; }
+  .wrap .cont1 .list3 .l3-3 > div:nth-child(2) {
+    padding-bottom: 0.5rem; }
+    .wrap .cont1 .list3 .l3-3 > div:nth-child(2) p {
+      font-size: 0.28rem;
+      font-family: 'SourceHanSansCNLight';
+      color: #666666;
+      font-weight: lighter;
+      line-height: 0.6rem;
+      text-align: justify; }
+.wrap .cont1 .list4 {
+  padding: 1rem 0.3rem 0.5rem 0.3rem; }
+  .wrap .cont1 .list4 .l4-title {
+    font-size: 0.38rem;
+    color: #333333; }
+  .wrap .cont1 .list4 .l4-wrap .wrap1 {
+    margin: 0.2rem 0; }
+    .wrap .cont1 .list4 .l4-wrap .wrap1 > div {
+      float: left;
+      width: 47%;
+      margin-right: 0.2rem; }
+      .wrap .cont1 .list4 .l4-wrap .wrap1 > div a {
+        display: block; }
+        .wrap .cont1 .list4 .l4-wrap .wrap1 > div a img {
+          width: 100%; }
+  .wrap .cont1 .list4 .l4-wrap .wrap2 {
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0; }
+    .wrap .cont1 .list4 .l4-wrap .wrap2 a {
+      font-size: 0.3rem;
+      color: #025fbd;
+      font-weight: lighter; }
+.wrap .cont1 .list5 {
+  padding: 1rem 0.3rem;
+  background-color: #f1f1f1; }
+  .wrap .cont1 .list5 .l5-title {
+    font-size: 0.38rem;
+    color: #333333;
+    margin-bottom: 0.2rem; }
+  .wrap .cont1 .list5 .l5-wrap .wrap-1 {
+    background-color: #fff;
+    margin-bottom: 0.25rem; }
+    .wrap .cont1 .list5 .l5-wrap .wrap-1 > a {
+      display: block; }
+      .wrap .cont1 .list5 .l5-wrap .wrap-1 > a > div {
+        float: left; }
+      .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-left {
+        width: 40%; }
+        .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-left img {
+          width: 100%; }
+      .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right {
+        width: 60%;
+        height: 100%; }
+        .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide1 {
+          border-bottom: 1px solid #dcdcdc;
+          padding: 0.2rem 0rem 0.05rem 0.3rem; }
+          .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide1 .slide1-title {
+            font-size: 0.28rem;
+            color: #333333; }
+          .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide1 .slide1-title2 {
+            padding: 0.1rem 0; }
+            .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide1 .slide1-title2 > div {
+              font-size: 0;
+              float: left;
+              margin-right: 0.1rem; }
+              .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide1 .slide1-title2 > div span {
+                font-size: 0.22rem;
+                color: #c4c4c4;
+                font-weight: lighter;
+                vertical-align: middle; }
+              .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide1 .slide1-title2 > div > span:first-child {
+                display: inline-block;
+                width: 0.3rem;
+                height: 0.3rem;
+                background: url("../img/icon02.png") no-repeat;
+                background-size: 100%;
+                background-position: 0 0.04rem;
+                margin-right: 0.05rem; }
+        .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide2 {
+          position: relative;
+          padding: 0.11rem 0 0.11rem 0.3rem; }
+          .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide2 > div:first-child {
+            font-size: 0; }
+            .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide2 > div:first-child span {
+              font-size: 0.22rem;
+              color: #666666; }
+            .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide2 > div:first-child > span:nth-child(2) {
+              color: #999999; }
+          .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide2 > div:last-child {
+            position: absolute;
+            top: 50%;
+            margin-top: -2.5%;
+            right: 0.2rem;
+            height: 50%; }
+            .wrap .cont1 .list5 .l5-wrap .wrap-1 > a .w1-right .slide2 > div:last-child img {
+              height: 100%; }
+.wrap .bottomBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0.85rem;
+  font-size: 0;
+  background-color: #ea3424; }
+  .wrap .bottomBar a {
+    width: 100%;
+    display: block;
+    font-size: 0.3rem;
+    color: #feffff;
+    text-align: center;
+    padding: 0.2rem 0; }
+
+/*# sourceMappingURL=public_wap.css.map */

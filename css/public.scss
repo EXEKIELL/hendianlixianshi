@@ -1,0 +1,114 @@
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.clearfloat {
+  zoom: 1;
+}
+.header{
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 500;
+  -webkit-box-shadow: 1px 0 20px #d2d2d2;
+  -moz-box-shadow: 1px 0 20px #d2d2d2;
+  box-shadow: 1px 0 1px #d2d2d2;
+  border-bottom: 2px solid #e7e7e7;
+  .container{
+    .header-wrap{
+      width: 100%;
+      >div{
+        width: 100%;
+        .left{
+          float: left;
+          margin: 10px 50px 0 0;
+          .logo{
+            display: block;
+          }
+        }
+        .right{
+          float: left;
+          ul{
+            margin-bottom: 0;
+            li{
+              float: left;
+              position: relative;
+              a{
+                font-size: 16px;
+                color: #333333;
+                display: block;
+                padding: 25px;
+              }
+              a:hover{
+                text-decoration: none;
+              }
+            }
+            li.sel{
+              border-top: 3px solid #ea3621;
+              a{
+                color: #ea3621;
+              }
+            }
+            li.sel::after{
+              display: block;
+              content: '';
+              height: 100%;
+              position: absolute;
+              top: 0;
+              right: 0;
+              border-right: 2px solid #e7e7e7;
+            }
+            li.sel::before{
+              display: block;
+              content: '';
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              border-left: 2px solid #e7e7e7;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.footer{
+  background-color: #fff;
+  width: 100%;
+  padding: 50px 0;
+  >div{
+    .footer-left{
+      float: left;
+      >div{
+        float: left;
+        margin: 18px 0 0 0px;
+      }
+      >div:last-child{
+        margin: 25px 0 0 50px;
+        >div{
+          font-weight: normal;
+          margin-bottom: 5px;
+        }
+        >div:first-child{
+          font-size: 14px;
+          color: #888888;
+        }
+        >div:last-child{
+          font-size: 12px;
+          color: #b6b6b6;
+        }
+      }
+    }
+    .footer-right{
+      float: right;
+      height: 90px;
+      img{
+        height: 100%;
+      }
+    }
+  }
+}
