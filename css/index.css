@@ -55,7 +55,8 @@ body {
           border-radius: 0 8px 8px 0;
           -webkit-box-shadow: -1px 3px 10px #e7e7e7;
           -moz-box-shadow: -1px 3px 10px #e7e7e7;
-          box-shadow: -1px 3px 10px #e7e7e7; }
+          box-shadow: -1px 3px 10px #e7e7e7;
+          outline: none; }
     .wrap .list1 .title {
       position: absolute;
       bottom: 60px;

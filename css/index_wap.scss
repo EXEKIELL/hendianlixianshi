@@ -106,6 +106,7 @@ body{
       white-space: nowrap;
       overflow-y: hidden;
       overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
       width: 100%;
       margin-bottom: 0.3rem;
       >li{
