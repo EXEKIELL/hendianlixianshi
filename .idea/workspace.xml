@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4c36535-30ae-4797-8903-8eaea6debfd0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index_wap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_wap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index_wap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_wap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index_wap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_wap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/public.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/public.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/public.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/public.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/public.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_wap.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_wap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/案例展示-h5列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/案例展示-h5列表.html" afterDir="false" />
-    </list>
+    <list default="true" id="a4c36535-30ae-4797-8903-8eaea6debfd0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -228,8 +215,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="890" />
-    <option name="y" value="57" />
+    <option name="x" value="421" />
+    <option name="y" value="72" />
     <option name="width" value="971" />
     <option name="height" value="971" />
   </component>
@@ -260,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baozun/js/productCenter.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -290,16 +277,15 @@
       <option name="presentableId" value="Default" />
       <updated>1522717532491</updated>
       <workItem from="1522717534008" duration="36337000" />
-      <workItem from="1522800983271" duration="11920000" />
+      <workItem from="1522800983271" duration="12474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48257000" />
+    <option name="totallyTimeSpent" value="48811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="890" y="57" width="971" height="971" extended-state="0" />
-    <editor active="true" />
+    <frame x="421" y="72" width="971" height="971" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25080386" />
       <window_info anchor="bottom" id="TODO" order="6" />

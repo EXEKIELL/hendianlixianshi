@@ -15,4 +15,6 @@ $(function () {
             console.log($.inArray("disabled",$(this).siblings('li')))
         }
     })
+    $('.del1').prevAll().remove();
+    $('.del2').nextAll().remove();
 })
